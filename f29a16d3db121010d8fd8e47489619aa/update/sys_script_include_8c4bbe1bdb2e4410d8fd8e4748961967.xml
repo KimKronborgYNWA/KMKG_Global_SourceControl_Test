@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.KMKGMyTestUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>KMKGMyTestUtil</name>
+        <script><![CDATA[var KMKGMyTestUtil = Class.create();
+KMKGMyTestUtil.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+	myTestUtil: function(){
+
+		gs.addInfoMessage('KMKG Testing');
+		gs.info('KMKG Inside KMKGMyTestUtil');
+		return 'ok';
+		
+	},
+	
+    type: 'KMKGMyTestUtil'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-30 09:34:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8c4bbe1bdb2e4410d8fd8e4748961967</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>KMKGMyTestUtil</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="KMKG Global Source Control Test App2">f29a16d3db121010d8fd8e47489619aa</sys_scope>
+        <sys_update_name>sys_script_include_8c4bbe1bdb2e4410d8fd8e4748961967</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-03 17:10:45</sys_updated_on>
+    </sys_script_include>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="KMKG Global Source Control Test App2">f29a16d3db121010d8fd8e47489619aa</claim_owner_scope>
+        <claim_timestamp>173b54ddb660000001</claim_timestamp>
+        <metadata_update_name>sys_script_include_8c4bbe1bdb2e4410d8fd8e4748961967</metadata_update_name>
+        <previous_claim_app_version>2.0.0</previous_claim_app_version>
+        <previous_claim_name>KMKG Global Source Control Test App2</previous_claim_name>
+        <previous_claim_scope>f29a16d3db121010d8fd8e47489619aa</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-03 17:10:45</sys_created_on>
+        <sys_id>9b8bd69fdb121010d8fd8e474896195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-03 17:10:45</sys_updated_on>
+    </sys_claim>
+</record_update>
